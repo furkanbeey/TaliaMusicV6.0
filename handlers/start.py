@@ -69,7 +69,7 @@ async def start_(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["start", f"start@LaCasadeMusic_bot]) & filters.group & ~filters.edited)
+@Client.on_message(command(["start", f"start@LaCasadeMusic_bot"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()

@@ -33,34 +33,34 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>✨ **𝙷𝙾Ş𝙶𝙴𝙻𝙳İ𝙽İ𝚉 {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝚈𝙴𝙽İ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼'𝙸𝙽 𝚂𝙴𝚂𝙻İ 𝚂𝙾𝙷𝙱𝙴𝚃𝙻𝙴𝚁İ𝚈𝙻𝙴 𝙶𝚁𝚄𝙿𝙻𝙰𝚁𝙸𝙽𝙳𝙰 𝙼Ü𝚉İ𝙺 Ç𝙰𝙻𝙼𝙰𝚂𝙸𝙽𝙰 İ𝚉İ𝙽 𝚅𝙴𝚁İ𝙽 !**
+💭 **[LaCasadeMusic_bot](https://t.me/LaCasadeMusic_bot) 𝚈𝙴𝙽İ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼'𝙸𝙽 𝚂𝙴𝚂𝙻İ 𝚂𝙾𝙷𝙱𝙴𝚃𝙻𝙴𝚁İ𝚈𝙻𝙴 𝙶𝚁𝚄𝙿𝙻𝙰𝚁𝙸𝙽𝙳𝙰 𝙼Ü𝚉İ𝙺 Ç𝙰𝙻𝙼𝙰𝚂𝙸𝙽𝙰 İ𝚉İ𝙽 𝚅𝙴𝚁İ𝙽 !**
 
 💡 **Ü𝚉𝙴𝚁İ𝙽𝙴 𝚃𝙸𝙺𝙻𝙰𝚈𝙰𝚁𝙰𝙺 𝙱𝙾𝚃'𝚄𝙽 𝚃Ü𝙼 𝙺𝙾𝙼𝚄𝚃𝙻𝙰𝚁𝙸𝙽𝙸 𝚅𝙴 𝙽𝙰𝚂𝙸𝙻 Ç𝙰𝙻𝙸Ş𝚃𝙸Ğ𝙸𝙽𝙸 ÖĞ𝚁𝙴𝙽İ𝙽. » 📚 𝙺𝙾𝙼𝚄𝚃𝙻𝙰𝚁 𝙳ÜĞ𝙼𝙴𝚂İ!**
 
 ❓ **𝙱𝚄 𝙱𝙾𝚃'𝚄𝙽 𝚃Ü𝙼 Ö𝚉𝙴𝙻𝙻İ𝙺𝙻𝙴𝚁İ 𝙷𝙰𝙺𝙺𝙸𝙽𝙳𝙰 𝙳𝙰𝙷𝙰 𝙵𝙰𝚉𝙻𝙰 𝙱İ𝙻𝙶İ İÇİ𝙽, 𝚂𝙰𝙳𝙴𝙲𝙴 𝙱𝙰𝚂𝙸𝙽𝙸𝚉 /help**
 
-✂ **𝚅𝙲𝙶'𝙳𝙴 𝙼Ü𝚉İ𝙺 Ç𝙰𝙻𝙼𝙰𝙺 İÇİ𝙽 𝙼𝙰𝙷𝙾 𝙰Ğ𝙰 𝚃𝙰𝚁𝙰𝙵𝙸𝙽𝙳𝙰𝙽 𝚈𝙰𝙿𝙸𝙻𝙼𝙸Ş𝚃𝙸𝚁.**
+✂ **𝚅𝙲𝙶'𝙳𝙴 𝙼Ü𝚉İ𝙺 Ç𝙰𝙻𝙼𝙰𝙺 İÇİ𝙽 FURKAN 𝚃𝙰𝚁𝙰𝙵𝙸𝙽𝙳𝙰𝙽 𝚈𝙰𝙿𝙸𝙻𝙼𝙸Ş𝚃𝙸𝚁.**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ 𝙱𝙴𝙽İ 𝙶𝚁𝚄𝙱𝚄𝙽𝙰 𝙴𝙺𝙻𝙴 ➕", url=f"https://t.me/Efsanestarbot?startgroup=true")
+                        "➕ 𝙱𝙴𝙽İ 𝙶𝚁𝚄𝙱𝚄𝙽𝙰 𝙴𝙺𝙻𝙴 ➕", url=f"https://t.me/kurtadamoyunuu?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                         "📚 𝙺𝙾𝙼𝚄𝚃𝙻𝙰𝚁", url="https://t.me/KanalEfsanestar"
+                         "📚 𝙺𝙾𝙼𝚄𝚃𝙻𝙰𝚁", url="https://t.me/kurtadamoyunuu"
                     ),
                     InlineKeyboardButton(
-                        "🖥️ 𝙳Ü𝚉𝙴𝙽𝙻𝙴𝙼𝙴 𝚈𝙰𝙿𝙰𝙽", url=f"https://t.me/Mahoaga")
+                        "🖥️ 𝙳Ü𝚉𝙴𝙽𝙻𝙴𝙼𝙴 𝚈𝙰𝙿𝙰𝙽", url=f"https://t.me/furkanbeyy")
                 ],[
                     InlineKeyboardButton(
-                        "👥 𝚁𝙴𝚂𝙼İ 𝙶𝚁𝚄𝙿", url=f"https://t.me/Sohbetneresi"
+                        "👥 𝚁𝙴𝚂𝙼İ 𝙶𝚁𝚄𝙿", url=f"https://t.me/kurtadamoyunuu"
                     ),
                     InlineKeyboardButton(
-                        "📣 𝚁𝙴𝚂𝙼İ 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/SohbetDestek")               
+                        "📣 𝚁𝙴𝚂𝙼İ 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/kurtadamoyunuu")               
                  ],[
                     InlineKeyboardButton(
-                        "🧪 𝙺𝙰𝚈𝙽𝙰𝙺 𝙺𝙾𝙳𝚄 🧪", url="https://github.com/Mehmet5506/TaliaMusic99"
+                        "🧪 𝙺𝙰𝚈𝙽𝙰𝙺 𝙺𝙾𝙳𝚄 🧪", url="https://t.me/furkanbeyy"
                     )
                 ]
             ]
@@ -69,7 +69,7 @@ async def start_(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["start", f"start@LaCasadeMusic_bot]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
@@ -80,17 +80,17 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "☢ 𝙶𝚁𝚄𝙿", url=f"https://t.me/SohbetSkayfall"
+                        "☢ 𝙶𝚁𝚄𝙿", url=f"https://t.me/kurtadamoyunuu"
                     ),
                     InlineKeyboardButton(
-                        "📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/SohbetDestek"
+                        "📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/kurtadamoyunuu"
                     )
                 ]
             ]
         )
     )
 
-@Client.on_message(command(["help", f"help@Efsanestar_bot"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["help", f"help@LaCasadeMusic_bot"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>☢ ʜᴇʟʟᴏ {message.from_user.mention()}, ᴘʟᴇᴀsᴇ ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ sᴇᴇ ᴛʜᴇ ʜᴇʟᴘ ᴍᴇssᴀɢᴇ ʏᴏᴜ ᴄᴀɴ ʀᴇᴀᴅ ғᴏʀ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ</b>""",
@@ -98,7 +98,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="✔ 𝙱𝙴𝙽İ 𝙽𝙰𝚂𝙸𝙻 𝙺𝚄𝙻𝙻𝙰𝙽𝙸𝚁𝚂𝙸𝙽", url=f"https://t.me/Efsanestar_bot?start=help"
+                        text="✔ 𝙱𝙴𝙽İ 𝙽𝙰𝚂𝙸𝙻 𝙺𝚄𝙻𝙻𝙰𝙽𝙸𝚁𝚂𝙸𝙽", url=f"https://t.me/LaCasadeMusic_bot?start=help"
                     )
                 ]
             ]
@@ -157,15 +157,15 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "☣ 𝙶𝚁𝚄𝙿", url=f"https://t.me/Sohbetneresi"
+                        "☣ 𝙶𝚁𝚄𝙿", url=f"https://t.me/kurtadamoyunuu"
                     ),
                     InlineKeyboardButton(
-                        "📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/SohbetDestek"
+                        "📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/kurtadamoyunuu"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "♞🏻‍💻 𝙶𝙴𝙻İŞ𝚃İ𝚁İ𝙲İ", url=f"https://t.me/Mahoaga"
+                        "♞🏻‍💻 𝙶𝙴𝙻İŞ𝚃İ𝚁İ𝙲İ", url=f"https://t.me/furkanbeyy"
                     )
                 ]
             ]
@@ -173,7 +173,7 @@ async def help_(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["ping", f"ping@Efsanestar_bot"]) & ~filters.edited)
+@Client.on_message(command(["ping", f"ping@LaCasadeMusic_bot"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("ᴘɪɴɢɪɴɢ...")
@@ -184,7 +184,7 @@ async def ping_pong(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["uptime", f"uptime@Efsanestar_bot"]) & ~filters.edited)
+@Client.on_message(command(["uptime", f"uptime@LaCasadeMusic_bot"]) & ~filters.edited)
 @authorized_users_only
 async def get_uptime(client: Client, message: Message):
     current_time = datetime.utcnow()

@@ -107,7 +107,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
-@Client.on_message(command(["playlist", f"playlist@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["playlist", f"playlist@LaCasadeMusic_bot"]) & filters.group & ~filters.edited)
 async def playlist(client, message):
     global que
     if message.chat.id in DISABLED_GROUPS:
@@ -172,7 +172,7 @@ def r_ply(type_):
     return mar
 
 
-@Client.on_message(command(["player", f"player@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["player", f"player@LaCasadeMusic_bot"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def settings(client, message):
     playing = None
@@ -464,14 +464,14 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⛑ Flood Wait Error ⛑\n{user.first_name} userbot için katılma isteği nedeniyle grubunuza katılamıyor! Kullanıcıların gruplar halinde yasaklanmamasını sağlama."
-                        f"\n\nVeya ekleyin @{ASSISTANT_NAME} el ile Grubunuza bakın ve yeniden deneyin</b>",
+                        f"\n\nVeya ekleyin @mymusicasistan el ile Grubunuza bakın ve yeniden deneyin</b>",
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>{user.first_name} bu grupta yasaklandı, yöneticiden @{ASSISTANT_NAME} Elle ekleyin.</i>"
+            f"<i>{user.first_name} bu grupta yasaklandı, yöneticiden @mymusicasistan Elle ekleyin.</i>"
         )
         return
     text_links=None
@@ -511,7 +511,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🖥️ 𝙼𝙴𝙽ü", callback_data="menu"),
                     InlineKeyboardButton("🗑 𝙺𝙰𝙿𝙰𝚃", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/SohbetDestek")
+                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/kurtadamoyunuu")
                 ],
             ]
         )
@@ -558,7 +558,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🖥️ 𝙼𝙴𝙽ü", callback_data="menu"),
                     InlineKeyboardButton("🗑 𝙺𝙰𝙿𝙰𝚃", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/KanalEfsanestar")
+                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/(kurtadamoyunuu")
                 ],
             ]
         )
@@ -575,7 +575,7 @@ async def play(_, message: Message):
         try:
           results = YoutubeSearch(query, max_results=6).to_dict()
         except:
-          await lel.edit("**Please give me the name of the song you want to play!**")
+          await lel.edit("**Lütfen bana çalmak istediğin şarkının adını ver.!**")
         # veez project
         try:
             toxxt = "⚡ __Choose a song to play:__\n\n"
@@ -615,7 +615,7 @@ async def play(_, message: Message):
             return
             # veez project
         except:
-            await lel.edit("__No other results to choose from, Autoplay...__")
+            await lel.edit("__Seçim için başka sonuçlar bulunamadı, Otomatik Başlatılıyor...__")
                         
             # print(results)
             try:
@@ -642,7 +642,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("🖥️ 𝙼𝙴𝙽ü", callback_data="menu"),
                     InlineKeyboardButton("🗑 𝙺𝙰𝙿𝙰𝚃", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/SohbetDestek")
+                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/kurtadamoyunuu")
                 ],
             ]
             )
@@ -741,7 +741,7 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("🖥️ 𝙼𝙴𝙽ü", callback_data="menu"),
                     InlineKeyboardButton("🗑 𝙺𝙰𝙿𝙰𝚃", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/Sohbetdestek")
+                    InlineKeyboardButton("📣 𝙺𝙰𝙽𝙰𝙻", url=f"https://t.me/kurtadamoyunuu")
                 ],
             ]
     )

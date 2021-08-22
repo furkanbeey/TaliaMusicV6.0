@@ -6,18 +6,18 @@ class Messages():
   INFO_MSG = [
     ".",
 f"""
-**󠁧󠁢󠁥󠁮󠁧󠁿✨ @Efsanestar_bot bilgi paneli✨ \n
+**󠁧󠁢󠁥󠁮󠁧󠁿✨ LaCasadeMusic bilgi paneli✨ \n
 💭 Bildiğiniz gibi, siber müzik telegram sesli sohbet grubu özelliğinde müzik akışı için bir telegram müzik botu projesidir.\n
-💠 Talia müzik projesi 12 Nisan 2020'de kuruldu, şimdi olarak bilinen telegram sesli sohbetinde akış için bir müzik botu projesi oluşturduk. Talia müzik bot.\n
-🧪 Talia müzik versiyonu:
+💠 LaCasade Music projesi 12 Nisan 2020'de kuruldu, şimdi olarak bilinen telegram sesli sohbetinde akış için bir müzik botu projesi oluşturduk. LaCasade Music bot.\n
+🧪 LaCasade Music versiyonu:
 ❍ ver.6.0
 ❍ beta-version \n
 👩🏻‍💻 developer:
-❍ @Mahoaga
-❍ @Byboss\n
+❍ @furkanbeyy
+❍ @Mahoaga\n
 💬 support chat:
-❍ @Sohbetneresi
+❍ @kurtadamoyunuu
 📣 updates channel:
-❍ @SohnetDestek\n
+❍ @kurtadamoyunuu\n
 """
   ]
